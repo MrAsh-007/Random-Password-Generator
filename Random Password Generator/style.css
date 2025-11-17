@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.container{
+    height: 773px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.psame{
+    height: 10%;
+    width: fit-content;
+    color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute; 
+}
+.p1{
+    top: 20%;
+    left: 5%;
+    font-size: 500%;
+}
+.p2{
+    top: 60%;
+    left: 5%;
+    font-size: 300%;
+}
+.p3{
+    top: 20%;
+    right: 15%;
+    font-size: 300%;
+}
+.p4{
+    bottom: 20%;
+    right: 13%;
+    font-size: 400%;
+}
+.p5{
+    top: 5%;
+    left: 20%;
+    font-size: 350%;
+}
+.p6{
+    bottom: 10%;
+    right: 35%;
+    font-size: 250%;
+}
+.p7{
+    top: 10%;
+    right: 30%;
+    font-size: 250%;
+}
+.p8{
+    bottom: 20%;
+    left: 20%;
+    font-size: 450%;
+}
+.p9{
+    top: 30%;
+    right: 10%;
+    font-size: 450%;
+}
+.p10{
+    top: 10%;
+    left: 40%;
+    font-size: 250%;
+}
+.p11{
+    bottom: 10%;
+    left: 30%;
+    font-size: 500%;
+}
+.p12{
+    bottom: 40%;
+    left: 15%;
+    font-size: 300%;
+}
+.p13{
+    bottom: 45%;
+    right: 13%;
+    font-size: 500%;
+}
+
+
+
+
+
+
+
+
+
+/* Box */
+
+
+.box{
+    height: 50%;
+    width: 20%;
+    background-color: rgb(151, 5, 5);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 5%;
+    border: 1px solid black;
+    box-shadow: rgb(226, 5, 5) 0px 5px 100px;
+}
+
+
+
+/* Box Items */
+.lock-icon{
+    height: 10%;
+    width: 20%;
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.795);
+}
+h2{
+    height: 12%;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: grey;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.pass-input{
+    height: 10%;
+    width: 80%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    font-size: 110%;
+    padding-left: 5%;
+}
+button{
+    height: 15%;
+    width: 85%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.button-txt{
+    font-size: 120%;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 1455px){
+    .container{
+        height: 773px;
+    }
+    .box{
+        height: 60%;
+        width: 20%;
+    }
+    .button-txt{
+        font-size: 200%;
+    }
+    .p6{
+        right: 25%;
+        font-size: 350%;
+    }
+    .p7{
+        right: 26%;
+        font-size: 350%;
+    }
+    .p10{
+        top: 5%;
+    }
+    .p11{
+        left: 23%;
+    }
+    button{
+        height: 13%;
+    }
+}
+
+@media only screen and (max-width: 1450px){
+    .container{
+        height: 615px;
+    }
+    .p1{
+        font-size: 350%;
+    }
+    .p6{
+        bottom: 5%;
+    }
+    .p10{
+        top: 5%;
+    }
+    .p11{
+        font-size: 350%;
+        bottom: 7%;
+    }
+    .p12{
+        top: 45%;
+    }
+    .p13{
+        right: 8%;
+    }
+    .box{
+        width: 25%;
+    }
+    
+}
+
+@media only screen and (max-width: 1030px){
+    .container{
+        height: 615px;
+    }
+    .box{
+        height: 60%;
+        width: 33%;
+    }
+    .psame{
+        font-size: 200%;
+    }
+    .p6{
+        bottom: 5%;
+        right: 25%;
+    }
+    .p7{
+        top: 10%;
+        right: 25%;
+    }
+    .p10{
+        top: 6%;
+    }
+    .p11{
+        bottom: 3%;
+    }
+    .p12{
+        top: 45%;
+        left: 10%;
+    }
+}
+
+@media only screen and (max-width: 770px){
+    .container{
+        height: 615px;
+    }
+    .box{
+        height: 60%;
+        width: 40%;
+    }
+    .psame{
+        font-size: 200%;
+    }
+    .p3{
+        right: 8%;
+    }
+    .p4{
+        right: 6%;
+    }
+    .p6{
+        bottom: 3%;
+        right: 20%;
+    }
+    .p8{
+        bottom: 10%;
+        left: 15%;
+    }
+    .p10{
+        top: 2%;
+    }
+    .p11{
+        bottom: 5%;
+    }
+    .p12{
+        top: 40%;
+        left: 5%;
+    }
+    .p13{
+        right: 8%;
+    }
+}
+
+@media only screen and (max-width: 428px){
+    .container{
+        height: 615px;
+    }
+    .box{
+        height: 70%;
+        width: 80%;
+    }
+    .psame{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 380px){
+    .container{
+        height: 615px;
+    }
+    .box{
+        height: 70%;
+        width: 84%;
+    }
+    .psame{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 330px){
+    .container{
+        height: 615px;
+    }
+    .box{
+        height: 70%;
+        width: 70%;
+    }
+    h2{
+        display: flex;
+        text-align: center;
+    }
+    button{
+        height: 12%;
+    }
+    .psame{
+        display: none;
+    }
+}
